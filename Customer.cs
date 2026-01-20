@@ -1,0 +1,38 @@
+﻿namespace BankAppIllustration;
+
+public class Customer
+{
+    public string CustomerName { get; set; }
+    private string BankPin;
+    public Guid AccountNumber { get; set; }
+    public Guid BankCode { get; set; }
+    public double AccountBalance { get; set; } = 0D;
+
+    public Customer(string Name, Bank ChoiceBank, string PIN)
+    {
+        CustomerName = Name;
+        BankCode = ChoiceBank.GetCBNCode();
+        BankPin = PIN;
+    }
+
+    public void DepositMoney (double amount)
+    {
+        AccountBalance += amount;
+    }
+    public void AboutCustomer ()
+    {
+        Console.WriteLine(@$"This customer's name is {CustomerName} making use of {Bank.GetNameFromCBNId(BankCode)}
+With an account Balance of {AccountBalance} and PIN: {new string('*', BankPin.Length)}");
+    }
+
+    public void AboutCustomer (string pin)
+    {
+        if (pin != BankPin)
+        {
+            Console.WriteLine("Access Denied: Incorrect PIN");
+            return;
+        }
+        Console.WriteLine(@$"This customer's name is {CustomerName} making use of {Bank.GetNameFromCBNId(BankCode)}
+With an account Balance of {AccountBalance} and PIN: {BankPin}");
+    }
+}

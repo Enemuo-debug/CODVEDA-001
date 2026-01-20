@@ -1,0 +1,14 @@
+C:\Users\Admin\Documents\CODEVA\BankAppIllustration\bin\Debug\net9.0\BankAppIllustration.exe
+C:\Users\Admin\Documents\CODEVA\BankAppIllustration\bin\Debug\net9.0\BankAppIllustration.deps.json
+C:\Users\Admin\Documents\CODEVA\BankAppIllustration\bin\Debug\net9.0\BankAppIllustration.runtimeconfig.json
+C:\Users\Admin\Documents\CODEVA\BankAppIllustration\bin\Debug\net9.0\BankAppIllustration.dll
+C:\Users\Admin\Documents\CODEVA\BankAppIllustration\bin\Debug\net9.0\BankAppIllustration.pdb
+C:\Users\Admin\Documents\CODEVA\BankAppIllustration\obj\Debug\net9.0\BankAppIllustration.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Documents\CODEVA\BankAppIllustration\obj\Debug\net9.0\BankAppIllustration.AssemblyInfoInputs.cache
+C:\Users\Admin\Documents\CODEVA\BankAppIllustration\obj\Debug\net9.0\BankAppIllustration.AssemblyInfo.cs
+C:\Users\Admin\Documents\CODEVA\BankAppIllustration\obj\Debug\net9.0\BankAppIllustration.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\CODEVA\BankAppIllustration\obj\Debug\net9.0\BankAppIllustration.dll
+C:\Users\Admin\Documents\CODEVA\BankAppIllustration\obj\Debug\net9.0\refint\BankAppIllustration.dll
+C:\Users\Admin\Documents\CODEVA\BankAppIllustration\obj\Debug\net9.0\BankAppIllustration.pdb
+C:\Users\Admin\Documents\CODEVA\BankAppIllustration\obj\Debug\net9.0\BankAppIllustration.genruntimeconfig.cache
+C:\Users\Admin\Documents\CODEVA\BankAppIllustration\obj\Debug\net9.0\ref\BankAppIllustration.dll
