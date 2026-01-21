@@ -19,20 +19,21 @@ public class Customer
     {
         AccountBalance += amount;
     }
-    public void AboutCustomer ()
+    public void AboutCustomer (string? pin = null)
     {
-        Console.WriteLine(@$"This customer's name is {CustomerName} making use of {Bank.GetNameFromCBNId(BankCode)}
-With an account Balance of {AccountBalance} and PIN: {new string('*', BankPin.Length)}");
-    }
-
-    public void AboutCustomer (string pin)
-    {
-        if (pin != BankPin)
+        if (pin != null)
         {
-            Console.WriteLine("Access Denied: Incorrect PIN");
-            return;
-        }
-        Console.WriteLine(@$"This customer's name is {CustomerName} making use of {Bank.GetNameFromCBNId(BankCode)}
+            if (pin != BankPin)
+            {
+                throw new InvalidPinException("Access Denied: Incorrect PIN");
+            }
+            Console.WriteLine(@$"This customer's name is {CustomerName} making use of {Bank.GetNameFromCBNId(BankCode)}
 With an account Balance of {AccountBalance} and PIN: {BankPin}");
+        }
+        else
+        {
+            Console.WriteLine(@$"This customer's name is {CustomerName} making use of {Bank.GetNameFromCBNId(BankCode)}
+With an account Balance of {AccountBalance} and PIN: {new string('*', BankPin.Length)}");
+        }
     }
 }

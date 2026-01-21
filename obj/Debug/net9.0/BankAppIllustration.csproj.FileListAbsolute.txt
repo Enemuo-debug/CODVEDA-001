@@ -12,3 +12,9 @@ C:\Users\Admin\Documents\CODEVA\BankAppIllustration\obj\Debug\net9.0\refint\Bank
 C:\Users\Admin\Documents\CODEVA\BankAppIllustration\obj\Debug\net9.0\BankAppIllustration.pdb
 C:\Users\Admin\Documents\CODEVA\BankAppIllustration\obj\Debug\net9.0\BankAppIllustration.genruntimeconfig.cache
 C:\Users\Admin\Documents\CODEVA\BankAppIllustration\obj\Debug\net9.0\ref\BankAppIllustration.dll
+C:\Users\Admin\Documents\CODEVA\BankAppIllustration\bin\Debug\net9.0\Serilog.dll
+C:\Users\Admin\Documents\CODEVA\BankAppIllustration\bin\Debug\net9.0\Serilog.Sinks.Console.dll
+C:\Users\Admin\Documents\CODEVA\BankAppIllustration\bin\Debug\net9.0\Serilog.Sinks.File.dll
+C:\Users\Admin\Documents\CODEVA\BankAppIllustration\obj\Debug\net9.0\BankAppIllustration.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\CODEVA\BankAppIllustration\obj\Debug\net9.0\BankAppIllustration.sourcelink.json
+C:\Users\Admin\Documents\CODEVA\BankAppIllustration\obj\Debug\net9.0\BankAppI.1844902A.Up2Date

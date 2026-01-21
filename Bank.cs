@@ -25,6 +25,7 @@ public class Bank
     }
     public static string GetNameFromCBNId (Guid CBN_Id)
     {
-        return Banks.Find(b => b.CBN_Id == CBN_Id).BankName;
+        var bank = Banks.Find(b => b.CBN_Id == CBN_Id);
+        return bank?.BankName ?? string.Empty;
     }
 }
